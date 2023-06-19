@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Styles/PapularConverter.css";
+
 function PapularDocumentformat() {
     return (
         <div className="container">
@@ -26,7 +28,7 @@ function PapularDocumentformat() {
                             Select one of the options below
                         </div>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -37,7 +39,7 @@ function PapularDocumentformat() {
                             PDF to WORD
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -48,7 +50,7 @@ function PapularDocumentformat() {
                             PDF to JPG
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -70,7 +72,7 @@ function PapularDocumentformat() {
                             jpg to svg
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -81,7 +83,7 @@ function PapularDocumentformat() {
                             png to svg
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -92,7 +94,7 @@ function PapularDocumentformat() {
                             jpg to webp
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -114,7 +116,7 @@ function PapularDocumentformat() {
                             svg to jpg
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -125,7 +127,7 @@ function PapularDocumentformat() {
                             svg to png
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom  papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -136,7 +138,7 @@ function PapularDocumentformat() {
                             svg to webp
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -158,7 +160,7 @@ function PapularDocumentformat() {
                             MERGE PDF
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter  py-3">
                         <Link
                             to="/"
                             style={{
@@ -169,7 +171,7 @@ function PapularDocumentformat() {
                             Jpg to png
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -180,7 +182,7 @@ function PapularDocumentformat() {
                             png to jpg
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -191,7 +193,7 @@ function PapularDocumentformat() {
                             PROTECT PDF
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom  py-3">
+                    <div className="col-md-3 border-bottom py-3">
                         <Link
                             to="/"
                             style={{
@@ -202,7 +204,7 @@ function PapularDocumentformat() {
                             ODT to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -213,7 +215,7 @@ function PapularDocumentformat() {
                             CSV to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -224,7 +226,7 @@ function PapularDocumentformat() {
                             PNG to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -235,7 +237,7 @@ function PapularDocumentformat() {
                             DB to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom  py-3">
+                    <div className="col-md-3 border-bottom py-3">
                         <Link
                             to="/"
                             style={{
@@ -246,7 +248,7 @@ function PapularDocumentformat() {
                             DOC to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -257,7 +259,7 @@ function PapularDocumentformat() {
                             DOCX to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -268,7 +270,7 @@ function PapularDocumentformat() {
                             DOTX to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -290,7 +292,7 @@ function PapularDocumentformat() {
                             ODG to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -301,7 +303,7 @@ function PapularDocumentformat() {
                             ODP to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -312,7 +314,7 @@ function PapularDocumentformat() {
                             ODS to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -323,7 +325,7 @@ function PapularDocumentformat() {
                             OTG to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom  py-3">
+                    <div className="col-md-3 border-bottom py-3">
                         <Link
                             to="/"
                             style={{
@@ -334,7 +336,7 @@ function PapularDocumentformat() {
                             OTP to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -345,7 +347,7 @@ function PapularDocumentformat() {
                             OTS to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -356,7 +358,7 @@ function PapularDocumentformat() {
                             OXT to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -367,7 +369,7 @@ function PapularDocumentformat() {
                             PPTX to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom  py-3">
+                    <div className="col-md-3 border-bottom py-3">
                         <Link
                             to="/"
                             style={{
@@ -378,7 +380,7 @@ function PapularDocumentformat() {
                             PSW to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -389,7 +391,7 @@ function PapularDocumentformat() {
                             EXTRACT pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -400,7 +402,7 @@ function PapularDocumentformat() {
                             WPS to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom border-right py-3">
+                    <div className="col-md-3 border-bottom papular-Converter py-3">
                         <Link
                             to="/"
                             style={{
@@ -411,7 +413,7 @@ function PapularDocumentformat() {
                             XLS to pdf
                         </Link>
                     </div>
-                    <div className="col-md-3 border-bottom  py-3">
+                    <div className="col-md-3 border-bottom py-3">
                         <Link
                             to="/"
                             style={{

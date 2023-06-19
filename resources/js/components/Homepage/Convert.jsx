@@ -62,8 +62,8 @@ const Convert = () => {
                                 </div>
                             </div>
                             <div className="vector-para" style={{}}>
-                                Upload your file to automatically convert it to
-                                in another format.
+                                The EasyConvertKit allows you to convert various
+                                file types.
                             </div>
                         </Col>
                         <Col lg={2} style={{ padding: "0px" }}>
@@ -89,8 +89,8 @@ const Convert = () => {
                                 </div>
                             </div>
                             <div className="vector-para" style={{}}>
-                                Your new file will download as an other file.
-                                Save it to make it your own.
+                                Your new file is downloadable. Save it to make
+                                it your own.
                             </div>
                         </Col>
 

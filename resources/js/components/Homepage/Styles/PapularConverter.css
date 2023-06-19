@@ -1,0 +1,10 @@
+.papular-Converter {
+    border-right: 1px solid rgb(207, 206, 206);
+}
+
+
+@media (max-width: 767px) {
+    .papular-Converter {
+        border-right: none;
+    }
+}
