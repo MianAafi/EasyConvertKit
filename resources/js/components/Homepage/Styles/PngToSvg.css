@@ -1,0 +1,412 @@
+.pngtosvg-contain {
+    margin: 80px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ParrotL {
+    width: 162.71px;
+    height: 204.55px;
+    background: #f5f5f5;
+    border: 1px solid #7b61ff;
+    border-radius: 12px;
+    transform: rotate(-7deg);
+    /* margin-top: -43px; */
+}
+
+.h1-t {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    color: #7b61ff;
+    text-transform: uppercases;
+}
+
+.png {
+    width: 70px;
+    height: 70px;
+    background: #575353;
+    opacity: 0.6;
+    margin-left: 45px;
+    border-radius: 12px;
+    transform: rotate(7.52deg);
+}
+
+.text-png {
+    width: 43px;
+    height: 29px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    padding-top: 20px;
+    color: white;
+}
+
+.button-1 {
+    font-size: 16px;
+    width: 179px;
+    height: 42px;
+    background: #7b61ff;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.para-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #323232;
+}
+
+.V-12 {
+    margin: 9px;
+}
+
+.Parrot {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.ParrotR {
+    margin-left: -25px;
+    /* margin-top: -40px; */
+    box-sizing: border-box;
+    width: 190px;
+    height: 251.25px;
+    background-color: whitesmoke;
+    border: 1px solid #7b61ff;
+    border-radius: 12px;
+    transform: matrix(-0.99, -0.12, -0.12, 0.99, 0, 0);
+}
+
+.ParrotRotate {
+    width: 98px;
+    height: 98px;
+    background: #f8f4f4;
+    border: #7b61ff;
+    bottom: 50px;
+    margin-top: 73px;
+    z-index: 100;
+    margin-left: -30px;
+}
+
+.box-1 {
+    width: 141.42px;
+    height: 77.38px;
+    left: 739.58px;
+    top: 1506.05px;
+}
+
+.box-2 {
+    width: 209.33px;
+    height: 114.54px;
+    left: 968.99px;
+    margin-top: 1523px;
+}
+
+.bg-img-2 {
+    /* background-image: url("/Images/bird2.png"); */
+    transform: rotate(17deg) scaleX(-1);
+    margin-top: 70px;
+    width: 180px;
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+@media (max-width: 992px) {
+    .ParrotL {
+        margin-right: 10px;
+        width: 134.71px;
+        height: 182.55px;
+        margin-top: -38px;
+    }
+
+    .ParrotR {
+        margin-left: -14px;
+        margin-top: -40px;
+        box-sizing: border-box;
+        width: 161.65px;
+        height: 227.25px;
+        background-color: whitesmoke;
+        border: 1px solid #7b61ff;
+        border-radius: 12px;
+        transform: matrix(-0.99, -0.12, -0.12, 0.99, 0, 0);
+    }
+
+    .ParrotRotate {
+        width: 56px;
+        height: 56px;
+        margin-top: 49px;
+    }
+
+    .V-12 {
+        width: 81%;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .bg-img-2 {
+        width: 158px;
+        height: 145px;
+    }
+    .para-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pngtosvg-contain {
+        margin: 50px 0;
+    }
+
+    .h1-t {
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .button-1 {
+        width: 154px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .bg-img-2 {
+        width: 158px;
+        height: 145px;
+    }
+
+    .Parrot {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Parrot {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    .ParrotR {
+        margin-right: 11px;
+        width: 172.65px;
+        height: 215.25px;
+        margin-top: 4px;
+    }
+    .para-text {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .ParrotL {
+        margin-right: 10px;
+        width: 149.71px;
+        height: 185.55px;
+        margin-top: 1px;
+    }
+
+    .ParrotRotate {
+        width: 80px;
+        height: 80px;
+        margin-top: 76px;
+    }
+
+    .V-12 {
+        width: 87%;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .h1-t {
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .bg-img-2 {
+        width: 158px;
+        height: 145px;
+    }
+}
+
+@media (max-width: 414px) {
+    .ParrotL {
+        margin-right: 10px;
+        width: 124.71px;
+        height: 172.55px;
+        margin-top: 13px;
+    }
+
+    .ParrotR {
+        margin-right: 4px;
+        width: 157.65px;
+        height: 215.25px;
+        margin-top: 4px;
+    }
+
+    .png {
+        width: 55px;
+        height: 55px;
+        background: #575353;
+        opacity: 0.6;
+        margin-left: 36px;
+        border-radius: 12px;
+        transform: rotate(1.52deg);
+    }
+}
+
+@media (max-width: 412px) {
+    .Parrot {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .ParrotRotate {
+        width: 56px;
+        height: 56px;
+        margin-top: 79px;
+    }
+
+    .ParrotL {
+        margin-right: 10px;
+        width: 124.71px;
+        height: 158.55px;
+        margin-top: 11px;
+    }
+
+    .ParrotR {
+        margin-right: 4px;
+        width: 143.65px;
+        height: 215.25px;
+        margin-top: 4px;
+    }
+
+    .bg-img-2 {
+        margin-top: 55px;
+        width: 143px;
+        height: 146px;
+    }
+
+    .arrow-img1 {
+        width: 39px;
+        margin-right: 7px;
+        margin-left: -3px;
+    }
+
+    .arrow-img2 {
+        width: 39px;
+        margin-top: 56px;
+        margin-left: -5px;
+        margin-right: 0;
+    }
+
+    .png {
+        margin-left: 25px;
+    }
+
+    .V-12 {
+        width: 84%;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Parrot {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .para-text {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .ParrotR {
+        margin-right: 9px;
+        width: 135.65px;
+        height: 194.25px;
+        margin-top: 4px;
+    }
+
+    .ParrotL {
+        margin-right: 6px;
+        width: 108.71px;
+        height: 158.55px;
+    }
+
+    .bg-img-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg-img-2 {
+        margin-top: 47px;
+        width: 130px;
+        height: 137px;
+    }
+
+    .ParrotR {
+        margin-right: 10px;
+        width: 127.65px;
+        height: 189.25px;
+        margin-top: 4px;
+    }
+
+    .ParrotRotate {
+        width: 54px;
+        height: 54px;
+        margin-top: 79px;
+    }
+
+    .ParrotL {
+        margin-right: 6px;
+        width: 99.71px;
+        height: 158.55px;
+    }
+
+    .ParrotR {
+        /* margin-right: 10px; */
+        width: 121.65px;
+        height: 189.25px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 280px) {
+    .bg-img-2 {
+        margin-top: 47px;
+        width: 121px;
+        height: 146px;
+    }
+
+    .ParrotL {
+        margin-right: 5px;
+        width: 95.71px;
+        height: 149.55px;
+        transform: rotate(-3deg);
+    }
+
+    .ParrotR {
+        margin-right: 10px;
+        width: 119.65px;
+        height: 175.25px;
+        margin-top: 4px;
+    }
+
+    .ParrotRotate {
+        width: 42px;
+        height: 42px;
+        margin-top: 79px;
+    }
+}

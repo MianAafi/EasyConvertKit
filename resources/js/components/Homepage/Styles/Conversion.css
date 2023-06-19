@@ -1,0 +1,28 @@
+.file-converter-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-input-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-file-container {
+    margin-top: 20px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}

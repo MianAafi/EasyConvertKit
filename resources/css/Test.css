@@ -1,0 +1,842 @@
+.documentPage {
+    background-color: white;
+    margin: 0px 200px;
+}
+
+.UploadFile {
+    /* background: linear-gradient(265.94deg, #007bff -1.21%, #68adf8 107.82%); */
+    background: linear-gradient(265.94deg, #7156fa -1.21%, #a595f3 107.82%);
+    margin: 30px 0px;
+    padding: 80px 134px 47px 134px;
+    position: relative;
+}
+
+.UploadFile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Images/tools-clip.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner-convert {
+    background-color: white;
+    padding: 21px 0px;
+}
+.upload-file {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7b61ff;
+    cursor: pointer;
+}
+.upload-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.convert-belowP {
+    padding-top: 12px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.below-convert-P {
+    text-align: center;
+    font-size: 30px;
+    color: #7b61ff;
+}
+.heading-docx {
+    margin: 0px;
+    padding: 10px;
+    color: #7b61ff;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading-p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.Download {
+    margin: 20px 0;
+}
+.Download-btn {
+    margin: 0px;
+    padding: 0px;
+}
+.download-convert {
+    padding: 17px 10px;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.DriveURlInput {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #7b61ff;
+}
+.FileSelect-toConvert {
+    margin: 20px 0;
+}
+.fileFormatrow {
+    border: 1px solid #7b61ff;
+}
+.FileNameFormat {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 17px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#output-format-dropdown {
+    background-color: white;
+    color: #cecece;
+    border-color: #cecece;
+    border-radius: 0px;
+}
+.to {
+    font-size: 14px;
+}
+.FileSizeFormat {
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 10px 20px 0px;
+    margin: 0px;
+}
+.Dropdown.Item {
+    font-size: 14px;
+}
+.AddMoreFile {
+    /* background: linear-gradient(265.94deg, #8673e4 -1.21%, #68adf8 107.82%); */
+    background: linear-gradient(265.94deg, #7156fa -1.21%, #a595f3 107.82%);
+
+    padding: 15px 0 15px 20px;
+}
+
+.AddMore {
+    margin: 20px 0px 0px 0px;
+}
+.addFile {
+    padding-left: 10px;
+    font-size: 16px;
+    color: #7b61ff;
+    font-weight: 500;
+}
+.AddMoreFile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Images/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+}
+.noConvert {
+    background-color: #7156fa;
+}
+.noConvert::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234%;
+    height: 100%;
+    background-image: url("/Images/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+}
+.drivedropicons {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #6a4ff0;
+}
+.drop-icon {
+    border-right: 1px solid white;
+    width: 1px;
+    height: 50px;
+    opacity: 40%;
+}
+.ConvertNow {
+    padding: 0px 10px;
+    color: #7b61ff;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #7b61ff;
+}
+.ConvertNow > button {
+    padding: 25px 47.5px;
+    background-color: #ffffff;
+    border: none;
+    color: #7b61ff;
+}
+#arrowC {
+    margin-left: 10px;
+}
+.btn.dropdown-toggle::after {
+    content: none;
+}
+.addFilebtn {
+    background-color: white;
+    padding: 12px 35px;
+}
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.addFilebtn:hover {
+    background-color: white;
+}
+.dropdown-menu-add {
+    background-color: #7b61ff;
+    border-radius: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.dropG {
+    color: white;
+    padding: 13px 30px 13px 10px;
+}
+.dropG:hover {
+    border: 1px solid white;
+    background-color: #7b61ff;
+    color: white;
+}
+.dropG > img {
+    width: 25px;
+}
+.dropD {
+    color: white;
+    padding: 13px 30px 13px 10px;
+}
+.dropD:hover {
+    border: 1px solid white;
+    background-color: #7b61ff;
+    color: white;
+}
+.dropD > img {
+    width: 25px;
+}
+.dropU {
+    color: white;
+    padding: 13px 80px 13px 10px;
+}
+.dropU:hover {
+    border: 1px solid white;
+    background-color: #7b61ff;
+    color: white;
+}
+.dropU > img {
+    width: 19px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.btn-custom {
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 10.5px 30.5px;
+    margin: 8px;
+    background-color: #7b61ff;
+}
+.fileSizeconverted {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.ConvertMoreFile {
+    /* background: linear-gradient(265.94deg, #8673e4 -1.21%, #68adf8 107.82%); */
+    background: linear-gradient(265.94deg, #7156fa -1.21%, #a595f3 107.82%);
+    padding: 15px 0 15px 0px;
+    margin-top: 20px;
+}
+.ConvertMoreFile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Images/CMF.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 01;
+}
+.addFilebtnend {
+    padding: 12px 35px;
+}
+.convertextraFile {
+    display: flex;
+    justify-content: center;
+}
+.fileicon {
+    width: 30px;
+    margin-right: 10px;
+}
+.dropdown-menu.show {
+    padding: 0;
+}
+.formate {
+    background-color: white;
+    color: black;
+    border: 20%;
+    border-radius: 2px solid black;
+    --bs-btn-hover-bg: #e1e9f5;
+    margin-left: 10px;
+}
+.select-file-format {
+    padding: 2px;
+}
+.button-items {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+    background: #4848e8;
+    color: white;
+    font-family: "Open Sans";
+    border: #4848e8;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.Left-btn {
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.Left-btn > img {
+    width: 40px;
+    background-color: #007bff;
+    padding: 12px 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+.Left-btn:hover {
+    opacity: 0.7;
+}
+.Left-btn > span {
+    padding: 10px 50px 10px 10px;
+    font-weight: 500;
+}
+
+.Right-btn {
+    padding: 0px;
+    margin-top: 5px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.Right-btn:hover {
+    opacity: 0.7;
+}
+.Right-btn > img {
+    width: 40px;
+    background-color: #007bff;
+    padding: 12px 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+.Right-btn > span {
+    padding: 10px 36px 10px 4px;
+    font-weight: 500;
+}
+.PdfView {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formatSelected {
+    font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+    .ConvertNow {
+        font-size: 16px;
+    }
+    .documentPage {
+        margin: 0 155px;
+    }
+}
+
+@media (max-width: 992px) {
+    .documentPage {
+        margin: 0 130px;
+    }
+    .UploadFile {
+        padding: 50px 70px 25px 70px;
+    }
+    .inner-convert {
+        background-color: white;
+        padding: 15px 0px;
+    }
+    .convert-belowP {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .heading-docx {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+    .heading-p {
+        font-size: 12px;
+    }
+    .below-convert-P {
+        font-size: 22px;
+    }
+    .addFilebtn {
+        padding: 10px 25px;
+    }
+    .addFile {
+        font-size: 14px;
+    }
+    .FileNameFormat {
+        font-size: 14px;
+    }
+    .FileSizeFormat {
+        font-size: 14px;
+    }
+    .ConvertNow {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    #arrowC {
+        margin-left: 5px;
+    }
+    .fileSizeconverted {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .addFilebtnend {
+        padding: 10px 25px;
+    }
+    .upload-file {
+        padding-left: 30px;
+    }
+
+    .dropG {
+        padding: 13px 25px 13px 10px;
+        font-size: 14px;
+    }
+    .dropG > img {
+        width: 20px;
+    }
+    .dropD {
+        padding: 13px 25px 13px 10px;
+        font-size: 14px;
+    }
+    .dropD > img {
+        width: 20px;
+    }
+    .dropU {
+        padding: 13px 70px 13px 10px;
+        font-size: 14px;
+    }
+    .dropU > img {
+        width: 16px;
+    }
+    .formatSelected {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .documentPage {
+        margin: 0 80px;
+    }
+    .UploadFile {
+        padding: 50px 60px 17px 60px;
+    }
+    .inner-convert {
+        background-color: white;
+        padding: 10px 0px;
+    }
+    .heading-docx {
+        font-size: 31px;
+    }
+    .below-convert-P {
+        font-size: 19px;
+    }
+    .addFilebtn {
+        background-color: white;
+        padding: 8px 15px;
+    }
+    .addFile {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .convert-belowP {
+        font-size: 11px;
+    }
+    .drive-icon-first > img {
+        width: 30px;
+    }
+    .drop-icon-first > img {
+        width: 30px;
+    }
+    .upload-icon-first {
+        width: 21px;
+    }
+    .upload-icon {
+        margin: 5px 0;
+    }
+    .drivedropicons > img {
+        width: 27px;
+    }
+    .upload-file {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .dropG {
+        padding: 13px 0px 10px 10px;
+        font-size: 14px;
+    }
+    .dropG > img {
+        width: 18px;
+    }
+    .dropD {
+        padding: 13px 0px 10px 10px;
+        font-size: 14px;
+    }
+    .dropD > img {
+        width: 18px;
+    }
+    .dropU {
+        padding: 13px 50px 10px 10px;
+        font-size: 14px;
+    }
+    .dropU > img {
+        width: 14px;
+    }
+    .button-items {
+        font-size: 13px;
+        padding: 8px 0px;
+    }
+    .button-items {
+        font-size: 12px;
+    }
+    .formatSelected {
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .documentPage {
+        margin: 0 40px;
+    }
+    .UploadFile {
+        padding: 35px 45px 17px 45px;
+    }
+    .upload-file {
+        font-size: 12px;
+    }
+    .heading-docx {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .heading-p {
+        font-size: 11px;
+    }
+    .drive-icon-first > img {
+        width: 25px;
+    }
+    .drop-icon-first > img {
+        width: 25px;
+    }
+    .upload-icon-first {
+        width: 17.5px;
+    }
+    .inner-convert {
+        background-color: white;
+        padding: 5px 0px;
+    }
+    .convert-belowP {
+        padding-top: 5px;
+        font-size: 9px;
+    }
+    .below-convert-P {
+        text-align: center;
+        font-size: 14px;
+        color: #7b61ff;
+    }
+    .FileNameFormat {
+        font-size: 12px;
+        padding: 14px 10px;
+    }
+    .to {
+        font-size: 12px;
+    }
+    #output-format-dropdown {
+        padding: 3px 8px;
+    }
+    .FileSizeFormat {
+        font-size: 12px;
+        align-items: center;
+    }
+    .AddMoreFile {
+        padding: 15px 0 15px 15px;
+    }
+    .addFile {
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    .addFilebtn {
+        padding: 7px 20px;
+    }
+    .addFilebtn > i {
+        font-size: 12px;
+    }
+    .ConvertNow {
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    #arrowC {
+        margin-left: 5px;
+    }
+    .drivedropicons > img {
+        width: 20px;
+    }
+    .fileSizeconverted {
+        font-size: 12px;
+    }
+    .btn-custom {
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+    .addFilebtnend {
+        padding: 7px 12px;
+    }
+    .addFilebtnend > i {
+        font-size: 14px;
+    }
+    .dropdown-menu-add {
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+    .dropG {
+        padding: 10px 0px 10px 5px;
+        font-size: 12px;
+    }
+    .dropG > img {
+        width: 16px;
+    }
+    .dropD {
+        padding: 10px 0px 10px 5px;
+        font-size: 12px;
+    }
+    .dropD > img {
+        width: 16px;
+    }
+    .dropU {
+        padding: 10px 70px 10px 5px;
+        font-size: 12px;
+    }
+    .dropU > img {
+        width: 12px;
+    }
+}
+@media (max-width: 420px) {
+    .documentPage {
+        margin: 0 30px;
+    }
+    .UploadFile {
+        padding: 30px 30px 12px 30px;
+    }
+    .heading-docx {
+        font-size: 22px;
+    }
+    .heading-p {
+        font-size: 10px;
+    }
+    .drive-icon-first > img {
+        width: 20px;
+    }
+    .drop-icon-first > img {
+        width: 20px;
+    }
+    .upload-icon-first {
+        width: 15px;
+    }
+    .inner-convert {
+        padding: 0px;
+    }
+    .convert-belowP {
+        font-size: 9px;
+    }
+
+    #arrowC {
+        margin-left: 2px;
+    }
+    .drivedropicons > img {
+        width: 17px;
+    }
+    .addFilebtnend {
+        padding: 6px 10px;
+    }
+    .addFilebtn {
+        padding: 7px 15px;
+    }
+    .dropG {
+        padding: 10px 0px 10px 5px;
+        font-size: 10px;
+    }
+    .dropG > img {
+        width: 14px;
+    }
+    .dropD {
+        padding: 10px 0px 10px 5px;
+        font-size: 10px;
+    }
+    .dropD > img {
+        width: 14px;
+    }
+    .dropU {
+        padding: 5px 80px 5px 5px;
+        font-size: 10px;
+    }
+    .dropU > img {
+        width: 11px;
+    }
+    .dropdown-menu-add {
+        margin-left: -17px;
+    }
+}
+@media (max-width: 370px) {
+    .documentPage {
+        margin: 0 12px;
+    }
+    .UploadFile {
+        padding: 25px 25px 10px 25px;
+    }
+    .heading-docx {
+        font-size: 19px;
+    }
+    .heading-p {
+        font-size: 9px;
+    }
+    .drive-icon-first > img {
+        width: 20px;
+    }
+    .drop-icon-first > img {
+        width: 20px;
+    }
+    .upload-icon-first {
+        width: 15px;
+    }
+    .inner-convert {
+        padding: 0px;
+    }
+    .convert-belowP {
+        font-size: 8px;
+    }
+    .below-convert-P {
+        font-size: 11.5px;
+    }
+    .FileNameFormat {
+        font-size: 10px;
+        padding: 14px 5px;
+    }
+    .fileicon {
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    #output-format-dropdown {
+        padding: 3px 8px;
+    }
+    .FileSizeFormat {
+        font-size: 10px;
+        padding: 19px 10px 19px 0px;
+    }
+    .AddMoreFile {
+        padding: 10px 0 10px 10px;
+    }
+    .addFile {
+        padding-left: 2px;
+        font-size: 10px;
+    }
+    .addFilebtn {
+        padding: 5px 13px;
+    }
+    .addFilebtn > i {
+        font-size: 10px;
+    }
+    .ConvertNow {
+        font-size: 10px;
+        padding: 0px 3px;
+    }
+    #arrowC {
+        margin-left: 2px;
+    }
+    .drivedropicons > img {
+        width: 15px;
+    }
+    .fileSizeconverted {
+        font-size: 10px;
+    }
+    .btn-custom {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .addFilebtnend {
+        padding: 5px 10px;
+    }
+    .addFilebtnend > i {
+        font-size: 12px;
+    }
+    .dropdown-menu-add {
+        margin-left: 0px;
+    }
+    .button-items {
+        font-size: 10px;
+    }
+    .formatSelected {
+        font-size: 10px;
+    }
+    .Left-btn > span {
+        padding: 10px 30px 10px 10px;
+    }
+    .Right-btn > span {
+        padding: 10px 17px 10px 3px;
+    }
+}

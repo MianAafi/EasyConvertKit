@@ -1,0 +1,37 @@
+.header{
+	background: #485918;
+	color: white; 
+	width: 100%; 
+	padding: 30px 0px;
+}
+.fileForm{
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	
+	height: 399px; 
+	border: 6px #ccc dashed; 
+	background-color: whitesmoke;
+	position: relative;
+}
+.btn-success{
+	background-color: #415016!important;
+	text-transform: uppercase;
+	margin-top: 7px;
+	width: 140px;
+}
+.dz-button{
+	display: none;
+
+}
+.upload-btn{
+	position: absolute;
+    top: 400px;
+   }
+
+  .footer{
+  	background: #485918;
+  	height: 300px;
+  	margin-top:100px;
+
+   }

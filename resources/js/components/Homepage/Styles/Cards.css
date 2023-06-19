@@ -1,0 +1,95 @@
+.card {
+    border-radius: 30px;
+}
+
+.title-1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #7b61ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-title {
+    margin: 10px 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #7b61ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #323232;
+}
+
+.card-img-top {
+    width: 45px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .card-img {
+        width: 35px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .title-1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 540px) {
+    .title-1 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
